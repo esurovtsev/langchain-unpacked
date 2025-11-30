@@ -1,0 +1,15 @@
+{
+    "dockerfile_lines": [],
+    "graphs": {
+      "01_HumanInTheLoopMiddleware": "./01_HumanInTheLoopMiddleware.py:graph"
+    },
+    "env": "./.env",
+    "python_version": "3.11",
+    "dependencies": [
+      "langchain>=1.0.5",
+      "langchain-openai>=1.0.3",
+      "langgraph>=1.0.3",
+      "python-dotenv",
+      "yfinance"
+    ]
+}
