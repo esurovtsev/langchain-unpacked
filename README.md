@@ -1,17 +1,17 @@
 # LangChain Unpacked
 
-This repository accompanies the LangChain Unpacked series, a fresh learning journey through the LangChain and LangGraph ecosystem following the October 2025 release of LangChain 1.0 and LangGraph 1.0. These updates introduced significant API changes, new abstractions like middlewares, and modernized patterns for building agentic applications. Rather than continuing with outdated syntax, this series provides a clean restart that reflects current best practices. It builds on insights from previous LangGraph work while embracing the updated framework architecture. Designed for developers seeking production-ready AI workflows, this series covers agents, tools, memory, human oversight, and scalable system design.
+This repository accompanies the LangChain Unpacked series, a fresh learning journey through the LangChain and LangGraph ecosystem following the October 2025 release of LangChain 1.0 and LangGraph 1.0. These updates introduced new APIs, abstractions like middlewares, and modernized patterns for building agentic applications. This series focuses on the 1.0-style APIs and patterns while building on everything you could already do with earlier versions. It builds on insights from previous LangGraph work while embracing the updated framework architecture. Designed for developers seeking production-ready AI workflows, this series covers agents, tools, memory, human oversight, and scalable system design.
 
 ## Why This Series Exists
 
-In October 2025, LangChain introduced breaking changes across their ecosystem:
+In October 2025, LangChain introduced a major 1.0 release across their ecosystem:
 
 - LangChain 1.0 and LangGraph 1.0 releases
 - Updated APIs and syntax
 - New abstractions (e.g., middlewares, runtime context)
 - Revised patterns for agent architectures
 
-Previous content using older syntax remains useful for historical reference, but building modern applications requires alignment with the updated framework. This series addresses that need by starting fresh with current APIs and patterns.
+Existing content and courses built on pre-1.0 syntax remain valid—the core ideas, patterns, and mental models still apply. This series simply gives you a focused track that showcases the newer 1.0-style APIs, middlewares, and runtime patterns, so you can extend what you already know to the latest surface area.
 
 ## Getting Started
 
