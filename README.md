@@ -76,6 +76,14 @@ If you plan to use LangGraph Studio, also create a `.env` file in the `studio/` 
    - Connect these ideas to a realistic scenario (approving a stock order via a high-stakes tool) and learn how LangGraph Studio helps you visualize, test, and explain these flows to others.
    - [LangChain 1.0 Unpacked – Build AI Agents with the New Middleware and and Human-in-the-Loop Controls](https://www.youtube.com/watch?v=fJ9o0EPXdHk)
 
+2. **LangChain Unpacked – Summary Middleware** ([02_langchain_summarization_middleware.ipynb](02_langchain_summarization_middleware.ipynb))
+   - See how a normal long-running doc Q&A chat slowly overloads its context window, and why naive "keep everything" or "just chop off the oldest turns" strategies are brittle.
+   - Learn to think of the built-in `SummarizationMiddleware` as a context-engineering layer that turns long histories into "summary + short tail" while keeping your agent logic unchanged.
+   - Understand how summarization middleware works alongside real tools and external docs (via MCP), so the agent still remembers what it has discovered and done so far.
+   - Develop a mental model of when summarization should trigger and what to keep, and how those choices trade off between answer quality, cost, and debuggability in long-running chats.
+   - Explore customizing the summary prompt so summaries focus on user intent, goals, and storyline—not just neutral recap—helping the agent stay aligned across extended sessions.
+   - [LangChain 1.0 Unpacked – Summarization Middleware for AI Agents](https://www.youtube.com/watch?v=QFi5TS54ZQ0)
+
 *Additional lessons will be added as the series progresses. Topics will cover memory systems, human oversight patterns, multi-agent architectures, production deployment strategies, and advanced optimization techniques.*
 
 ## Running Agents in `studio` Using LangGraph Studio (Web Interface)
