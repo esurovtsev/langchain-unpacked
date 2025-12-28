@@ -84,6 +84,12 @@ If you plan to use LangGraph Studio, also create a `.env` file in the `studio/` 
    - Explore customizing the summary prompt so summaries focus on user intent, goals, and storyline—not just neutral recap—helping the agent stay aligned across extended sessions.
    - [LangChain 1.0 Unpacked – Summarization Middleware for AI Agents](https://www.youtube.com/watch?v=QFi5TS54ZQ0)
 
+3. **LangChain Unpacked – Model Call Limit Middleware** ([03_langchain_model_call_limit_middleware.ipynb](03_langchain_model_call_limit_middleware.ipynb))
+   - See what happens when an enthusiastic agent runs without limits, looping through model calls while your API budget disappears.
+   - Learn how `ModelCallLimitMiddleware` acts as a simple guardrail, capping the number of model calls per request.
+   - Understand when to use call limits: during development to save costs, in production to prevent runaway agents, and as a safety net against unexpected infinite loops.
+   - Walk away with a practical awareness of this middleware so you can reach for it when building production systems.
+
 *Additional lessons will be added as the series progresses. Topics will cover memory systems, human oversight patterns, multi-agent architectures, production deployment strategies, and advanced optimization techniques.*
 
 ## Running Agents in `studio` Using LangGraph Studio (Web Interface)
